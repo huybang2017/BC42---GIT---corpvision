@@ -1,0 +1,66 @@
+*{
+    font-family: 'Volkhov', serif;
+}
+.root{
+    --theme-color: #e40000;
+    --primary-color: #fb811e;
+    --primary-light: #fcf1e7;
+    --primary-dark: #ffc945;
+    --secondary-color: #009f4d;
+    --font-color: #707070;
+    --bg-color: #fff;
+    --heading-color: #060606;
+    --footer-color: #060e1f;
+    --footer-cpy-color: #040a17;
+    --border-radius: 30px;
+    --border-radius-full: 15px;
+    --border-color: transparent;
+    --border-color-light: #eee;
+    --iframe-filter: grayscale(0%);
+    --bg-grey: #f4f4f4;
+    --bg-light: #fafafa;
+    --bg-dark-color: #fff;
+    --quote-text-color: #1d2c4c;
+    --icon-gra-color: linear-gradient(75deg, #1c2e7b 10%, #e60264);
+    --shadow-color: rgb(0 0 0 / 3%);
+    --box-shadow: rgb(0 0 0 / 41%);
+}
+.service {
+    background-color: #009f4d;
+}
+.container{
+    width: 100%;
+}
+.title{
+    position: relative;
+}
+.title-bg-content{
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    font-size: 170px;
+    opacity: .2;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+}
+.title-h5{
+    font-size: 22px;
+}
+.title-h3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.title-text p{
+    font-size: 20px;
+    color: white;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-header img{
+    width: 100%;
+    max-width: 100%;
+}
