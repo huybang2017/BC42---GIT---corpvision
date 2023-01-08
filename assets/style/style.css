@@ -529,7 +529,7 @@ body {
 }
 
 /* back to top */
-#button {
+/* #button {
   display: inline-block;
   background-color: var(--secondary-color);
   width: 40px;
@@ -563,7 +563,33 @@ body {
 #button.show {
   opacity: 1;
   visibility: visible;
+} */
+.backToTop {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #28a745;
+  display: block;
+  color: white;
+  /* Cài đặt vị trí cố định theo body  */
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  /* Ẩn nút back to top  */
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 10px;
+  box-shadow: -4px 4px 24px -10px #f55f8d
 }
+.cd-top--is-visible { 
+  /* // back-to-top button visible */
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
 
 
 
@@ -681,6 +707,22 @@ header {
 .navbar{
   padding: 0;
 }
+
+.fixed-top {
+  background-color: white;
+  transition: all .4s ease 0s;
+  padding: 0px;
+  height: 90px;
+}
+.nav-fixed {
+  padding: 0px;
+    border-bottom: none;
+    z-index: 99 !important;
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
+    height: 70px;
+}
+
 
 .navbar-expand-lg {
   height: 100%;
